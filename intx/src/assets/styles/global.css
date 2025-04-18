@@ -1,0 +1,69 @@
+:root {
+  --primary-color: #00ff00;
+  --background-color: #000000;
+  --text-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Arial', sans-serif;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.hero-title {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.technical-sessions {
+  padding: 2rem;
+}
+
+.sessions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.session-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.statistics {
+  padding: 4rem 2rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  text-align: center;
+}
+
+.stat-number {
+  color: var(--primary-color);
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.impact {
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.impact-content {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
